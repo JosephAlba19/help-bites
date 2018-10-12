@@ -1,0 +1,226 @@
+footer {
+  height: 300px;
+  width: 100%;
+  background: #8A3985;
+  text-align: center; }
+  footer .copyright {
+    width: 100%;
+    color: #fff;
+    position: relative;
+    top: 250px;
+    display: inline-block; }
+  footer .credit {
+    display: block;
+    position: relative;
+    top: 255px;
+    color: #fff;
+    padding: 5px; }
+    footer .credit .link {
+      text-decoration: none;
+      color: #543415; }
+      footer .credit .link:hover {
+        color: #F8F8FF; }
+  footer nav {
+    padding-top: 30px;
+    padding-right: 40px;
+    float: right; }
+    footer nav ul {
+      list-style: none; }
+      footer nav ul li {
+        padding: 5px; }
+        footer nav ul li a {
+          font-size: 16px;
+          font-weight: 400;
+          text-decoration: none;
+          color: #fff;
+          text-transform: uppercase; }
+          footer nav ul li a:hover {
+            color: #543415; }
+  footer .social-media {
+    float: right;
+    position: relative;
+    top: 250px; }
+    footer .social-media .fab {
+      font-size: 36px;
+      color: #F8F8FF;
+      position: relative; }
+    footer .social-media .fas {
+      font-size: 36px;
+      color: #F8F8FF; }
+
+header {
+  background: #8A3985;
+  height: 105px; }
+  header nav {
+    width: auto;
+    height: 100%; }
+    header nav .logo {
+      position: relative;
+      padding: 12px 14px;
+      display: inline-block; }
+    header nav ul {
+      padding: 20px 12px 0px 0px;
+      text-transform: uppercase;
+      float: right; }
+      header nav ul li {
+        display: inline-block;
+        margin: 20px;
+        font-size: 1.3em;
+        font-weight: 500; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #F8F8FF; }
+          header nav ul li a:hover {
+            color: #543415; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat"; }
+
+body {
+  height: 100%; }
+
+.container {
+  height: 100%;
+  margin: 10px; }
+
+#showcase {
+  height: 450px;
+  background: #8A3985;
+  box-shadow: 0px 2px 0px #4A0E50; }
+  #showcase #help-bites {
+    color: #F8F8FF;
+    font-size: 60px;
+    position: relative;
+    top: 180px;
+    overflow: hidden;
+    margin-left: 40px;
+    text-shadow: 2px 3px 5px #4A0E50; }
+  #showcase #help-tag {
+    color: #F8F8FF;
+    position: relative;
+    top: 210px;
+    margin-left: 50px;
+    font-size: 22px;
+    text-shadow: 2px 3px 5px #4A0E50; }
+  #showcase #help-img {
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    height: 65%;
+    -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+    -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+    box-shadow: 0 0px 20px 1px #4A0E50; }
+
+#hero {
+  height: 100%;
+  width: 100%; }
+  #hero .hero-1 {
+    height: 40px;
+    background: #4A0E50;
+    box-shadow: 0px 2px 0px #4A0E50; }
+  #hero .hero-2 {
+    background: #543415;
+    height: 40px;
+    opacity: 0.8; }
+
+.title {
+  height: 100%;
+  padding: 80px;
+  background: #F8F8FF; }
+  .title h1 {
+    color: #4A0E50;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 80px; }
+
+.boxes {
+  padding-top: 80px;
+  text-align: center;
+  background: #F8F8FF; }
+  .boxes .card {
+    height: 300px;
+    width: 300px;
+    background: #fff;
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 40px;
+    -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+    -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+    box-shadow: 0 0px 20px 1px #4A0E50; }
+    .boxes .card .circ-decor {
+      height: 110px;
+      width: 110px;
+      background-color: #8A3985;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto;
+      bottom: 70px;
+      padding: 0; }
+    .boxes .card h3 {
+      color: #4A0E50;
+      font-size: 1.5em; }
+    .boxes .card .line-break {
+      border-bottom: 2px solid #8A3985;
+      width: 100px;
+      margin: 0 auto;
+      padding-top: 15px; }
+    .boxes .card .card-text {
+      color: #4A0E50;
+      font-weight: bold;
+      margin-top: 10px;
+      padding-bottom: 10px; }
+
+#info {
+  height: 100%;
+  background: #F8F8FF;
+  padding-top: 200px; }
+  #info .left-bite {
+    color: #8A3985;
+    font-size: 24px;
+    display: inline-block;
+    width: 50%;
+    text-align: center; }
+    #info .left-bite img {
+      border-radius: 50%;
+      height: 300px;
+      margin-top: 50px;
+      -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+      -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+      box-shadow: 0 0px 20px 1px #4A0E50; }
+  #info .right-bite {
+    color: #8A3985;
+    float: right;
+    font-size: 24px;
+    width: 50%;
+    text-align: center; }
+    #info .right-bite img {
+      border-radius: 50%;
+      height: 300px;
+      margin-top: 50px;
+      -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+      -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+      box-shadow: 0 0px 20px 1px #4A0E50; }
+  #info .btn-purchase {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center; }
+    #info .btn-purchase .btn-main {
+      background: #8A3985;
+      color: #fff;
+      font-size: 22px;
+      border-radius: 5px;
+      height: 50px;
+      width: 200px;
+      cursor: pointer;
+      outline: none; }
+      #info .btn-purchase .btn-main .btn-main:focus {
+        outline: none;
+        border: none; }

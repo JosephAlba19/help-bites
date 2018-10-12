@@ -1,0 +1,12 @@
+$logoPurple: #8A3985;
+$darkPurple: #4A0E50;
+$logoBrown: #2B1B08;
+$navBrown: #543415;
+$ghostWhite: #F8F8FF;
+
+@mixin box-shadow($shadow: 0 0px 20px 1px $darkPurple){
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+	box-shadow: $shadow;
+}
+        

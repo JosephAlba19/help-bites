@@ -1,0 +1,32 @@
+@import 'variables';
+header {
+    background: $logoPurple;
+    height: 105px;
+    nav {
+        width: auto;
+        height: 100%;
+        .logo {
+            position: relative;
+            padding: 12px 14px;
+            display: inline-block;
+        }
+        ul {
+            padding: 20px 12px 0px 0px;
+            text-transform: uppercase;
+            float: right;
+            li {
+                display: inline-block;
+                margin: 20px;
+                font-size: 1.3em;
+                font-weight: 500;
+                a {
+                    text-decoration: none;
+                    color: $ghostWhite;
+                    &:hover {
+                        color: $navBrown;
+                    }
+                }
+            }
+        }
+    }
+}

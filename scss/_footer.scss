@@ -1,0 +1,63 @@
+@import 'variables';
+footer {
+    height: 300px;
+    width: 100%;
+    background: $logoPurple;
+    text-align: center;
+    .copyright {
+        width: 100%;
+        color: #fff;
+        position: relative;
+        top: 250px;
+        display: inline-block;
+    }
+    .credit {
+        display: block;
+        position: relative;
+        top: 255px;
+        color: #fff;
+        padding: 5px;
+        .link {
+            text-decoration: none;
+            color: $navBrown;
+            &:hover {
+                color: $ghostWhite;
+            }
+        }
+    }
+    nav {
+        padding-top: 30px;
+        padding-right: 40px;
+        float: right;
+        ul {
+            list-style: none;
+            li {
+                padding: 5px;
+                a {
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #fff;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: $navBrown;
+                    }
+                }
+            }
+        }
+    }
+    .social-media {
+        float: right;
+        position: relative;
+        top: 250px;
+        .fab {
+            font-size: 36px;
+            color: $ghostWhite;
+            position: relative;
+        }
+        .fas {
+            font-size: 36px;
+            color: $ghostWhite;
+        }
+    }
+}

@@ -1,0 +1,174 @@
+@import 'variables';
+@import 'footer';
+@import 'header';
+@import 'shopcart';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    height: 100%
+}
+
+.container {
+    height: 100%;
+    margin: 10px;
+}
+
+#showcase {
+    height: 450px;
+    background: $logoPurple;
+    box-shadow: 0px 2px 0px  $darkPurple;
+    #help-bites {
+        color: $ghostWhite;
+        font-size: 60px;
+        position: relative;
+        top: 180px;
+        overflow: hidden;
+        margin-left: 40px;
+        text-shadow: 2px 3px 5px $darkPurple; 
+    }
+    #help-tag {
+        color: $ghostWhite;
+        position: relative;
+        top: 210px;
+        margin-left: 50px;
+        font-size: 22px;
+        text-shadow: 2px 3px 5px $darkPurple;
+    }
+    #help-img {
+        border-radius: 50%;
+        float: right;
+        position: relative;
+        bottom: 60px;
+        right: 50px;
+        height: 65%;
+        @include box-shadow;
+    }
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+    .hero-1 {
+        height: 40px;
+        background: $darkPurple;
+        box-shadow: 0px 2px 0px  $darkPurple;
+    }
+    .hero-2 {
+        background: $navBrown;
+        height: 40px;
+        opacity: 0.8;
+    }
+    
+}
+.title {
+    height: 100%;
+    padding: 80px;
+    background: $ghostWhite;
+    h1 {
+        color: $darkPurple;
+        font-size: 36px;
+        line-height: 1.5;
+        text-align: center;
+        padding-top: 80px;
+        
+    }
+}
+.boxes {
+    padding-top: 80px;
+    text-align: center;
+    background: $ghostWhite;
+    .card {
+        height: 300px;
+        width: 300px;
+        background: #fff;
+        padding: 0 10px 0 10px;
+        overflow: hidden;
+        display: inline-block;
+        margin: 40px;
+        @include box-shadow;
+        .circ-decor {
+            height: 110px;
+            width: 110px;
+            background-color: $logoPurple;
+            border-radius: 50%;
+            position: relative;
+            margin: 0 auto;
+            bottom: 70px;
+            padding: 0;
+        }
+        h3 {
+            color: $darkPurple;
+            font-size: 1.5em;
+        }
+        .line-break {
+            border-bottom: 2px solid $logoPurple;
+            width: 100px;
+            margin: 0 auto;
+            padding-top: 15px;
+        }
+        .card-text {
+            color: $darkPurple;
+            font-weight: bold;
+
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+#info {
+    height: 100%;
+    background: $ghostWhite;
+    padding-top: 200px;
+    .left-bite {
+        color: $logoPurple;
+        font-size: 24px;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        img {
+            border-radius: 50%;
+            height: 300px;
+            margin-top: 50px;
+            @include box-shadow;
+        }
+    }
+    .right-bite {
+        color: $logoPurple; // top: 100px;
+        float: right;
+        font-size: 24px;
+        width: 50%;
+        text-align: center;
+        img {
+            border-radius: 50%;
+            height: 300px;
+            margin-top: 50px;
+            @include box-shadow;
+        }
+    }
+    .btn-purchase {
+        position: relative;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        .btn-main {
+            background: $logoPurple;
+            color: #fff;
+            font-size: 22px;
+            border-radius: 5px;
+            height: 50px;
+            width: 200px;
+            cursor: pointer;
+            outline: none;
+            .btn-main:focus {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}

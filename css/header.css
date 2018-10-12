@@ -1,0 +1,24 @@
+header {
+  background: #8A3985;
+  height: 125px; }
+  header nav {
+    width: auto;
+    height: 100%; }
+    header nav .logo {
+      position: relative;
+      padding: 12px 14px;
+      display: inline-block; }
+    header nav ul {
+      padding: 20px 12px 0px 0px;
+      text-transform: uppercase;
+      float: right; }
+      header nav ul li {
+        display: inline-block;
+        margin: 20px;
+        font-size: 1.3em;
+        font-weight: 500; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #F8F8FF; }
+          header nav ul li a:hover {
+            color: #543415; }
