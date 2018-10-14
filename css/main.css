@@ -206,19 +206,14 @@ body {
       transform: skewY(-1.5deg);
       transform-origin: 100%; }
   #info .blur {
-    position: relative;
-    left: 20px;
+    display: flex;
     text-align: center;
-    width: 100%;
-    display: inline-block; }
+    width: 100%; }
     #info .blur h1 {
       font-size: 34px;
       padding: 30px 0px 0px 30px; }
     #info .blur .btn-purchase {
-      position: relative;
-      margin: 0 auto;
-      padding: 30px;
-      text-align: center; }
+      position: relative; }
       #info .blur .btn-purchase .btn-main {
         background: #8A3985;
         color: #fff;

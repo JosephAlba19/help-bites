@@ -130,8 +130,7 @@ body {
         background: $logoPurple;
         color: $ghostWhite;
         position: relative;
-        z-index: 1;
-        
+        z-index: 1;     
         &:before,
         &:after {
             content: '';
@@ -157,20 +156,18 @@ body {
         }
     }
     .blur {
-        position: relative;
-        left: 20px;
+        display: flex;
         text-align: center;
-      width: 100%;
-        display: inline-block;
+         width: 100%;
         h1 {
         font-size: 34px;
         padding: 30px 0px 0px 30px;      
     }
     .btn-purchase {
         position: relative;
-        margin: 0 auto;
-        padding: 30px;
-        text-align: center;
+        // margin: 0 auto;
+        // padding: 30px;
+        // text-align: center;
         .btn-main {
             background: $logoPurple;
             color: #fff;
