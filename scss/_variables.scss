@@ -9,4 +9,18 @@ $ghostWhite: #F8F8FF;
     -moz-box-shadow: $shadow;
 	box-shadow: $shadow;
 }
+
+@mixin transform($transform: skew(20deg)) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+// @mixin transform($untransform: skew(-20deg)) {
+//     -webkit-transform: $untransform;
+//     -moz-transform: $untransform;
+//     -o-transform: $untransform;
+//     transform: $untransform;
+// }
         
