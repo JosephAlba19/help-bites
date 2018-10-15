@@ -247,10 +247,11 @@ body {
             outline: none;
             border: none; }
   #info .right-bite {
-    background: #8A3985;
+    background: #800020;
     color: #F8F8FF;
     position: relative;
-    z-index: 1; }
+    margin-top: 80px;
+    z-index: 0; }
     #info .right-bite:before, #info .right-bite:after {
       content: '';
       background: inherit;
@@ -263,12 +264,12 @@ body {
       -webkit-backface-visibility: hidden; }
     #info .right-bite:before {
       top: 0;
-      transform: skewY(1.5deg);
-      transform-origin: 100% 0; }
+      transform: skewY(-1.5deg);
+      transform-origin: 0 100%; }
     #info .right-bite:after {
       bottom: 0;
-      transform: skewY(-1.5deg);
-      transform-origin: 100%; }
+      transform: skewY(1.5deg);
+      transform-origin: 0; }
     #info .right-bite .blur {
       display: flex;
       flex-direction: row;
@@ -289,7 +290,7 @@ body {
       #info .right-bite .blur img {
         border-radius: 50%;
         position: relative;
-        right: 800px;
+        left: 165px;
         height: 300px;
         -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
         -moz-box-shadow: 0 0px 20px 1px #4A0E50;
@@ -297,9 +298,9 @@ body {
       #info .right-bite .blur .btn-purchase {
         position: relative;
         top: 135px;
-        right: 60px; }
+        right: 1080px; }
         #info .right-bite .blur .btn-purchase .btn-main {
-          background: #8A3985;
+          background: #800020;
           color: #fff;
           font-size: 22px;
           border-radius: 5px;

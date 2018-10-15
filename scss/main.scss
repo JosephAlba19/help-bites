@@ -207,10 +207,11 @@ body {
  }
     
  .right-bite {
-    background: $logoPurple;
+    background: $logoBurgundy;
     color: $ghostWhite;
-    position: relative;       
-    z-index: 1;     
+    position: relative;
+    margin-top: 80px;       
+    z-index: 0;     
     &:before,
     &:after {
         content: '';
@@ -225,19 +226,18 @@ body {
     }
     &:before {
         top: 0;
-        transform: skewY(1.5deg);
-        transform-origin: 100% 0;
+        transform: skewY(-1.5deg);
+        transform-origin: 0 100%;
     }
     
     &:after {
         bottom: 0;
-        transform: skewY(-1.5deg);
-        transform-origin: 100%;
+        transform: skewY(1.5deg);
+        transform-origin: 0;
     }
     .blur {
         display: flex;
         flex-direction: row;
-        // justify-content: ce;
         text-align: center;
         h1 {
             padding-top: 40px;
@@ -258,17 +258,16 @@ body {
         img {
             border-radius: 50%;
             position: relative;
-            right: 800px;
+            left: 165px;
             height: 300px;
-            // margin-top: 30px;
             @include box-shadow;
         }
         .btn-purchase {
             position: relative;
             top: 135px;
-            right: 60px;
+            right: 1080px;
             .btn-main {
-                background: $logoPurple;
+                background: $logoBurgundy;
                 color: #fff;
                 font-size: 22px;
                 border-radius: 5px;
