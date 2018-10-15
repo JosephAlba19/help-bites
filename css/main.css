@@ -87,7 +87,7 @@ body {
   margin: 10px; }
 
 #showcase {
-  height: 450px;
+  height: 400px;
   background: #8A3985;
   box-shadow: 0px 2px 0px #4A0E50; }
   #showcase #help-bites {
@@ -111,7 +111,7 @@ body {
     position: relative;
     bottom: 60px;
     right: 50px;
-    height: 65%;
+    height: 80%;
     -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
     -moz-box-shadow: 0 0px 20px 1px #4A0E50;
     box-shadow: 0 0px 20px 1px #4A0E50; }
@@ -130,7 +130,6 @@ body {
 
 .title {
   height: 100%;
-  padding: 80px;
   background: #F8F8FF; }
   .title h1 {
     color: #4A0E50;
@@ -144,8 +143,8 @@ body {
   text-align: center;
   background: #F8F8FF; }
   .boxes .card {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     background: #fff;
     padding: 0 10px 0 10px;
     overflow: hidden;
@@ -155,8 +154,8 @@ body {
     -moz-box-shadow: 0 0px 20px 1px #4A0E50;
     box-shadow: 0 0px 20px 1px #4A0E50; }
     .boxes .card .circ-decor {
-      height: 110px;
-      width: 110px;
+      height: 120px;
+      width: 120px;
       background-color: #8A3985;
       border-radius: 50%;
       position: relative;
@@ -165,15 +164,16 @@ body {
       padding: 0; }
     .boxes .card h3 {
       color: #4A0E50;
-      font-size: 1.5em; }
+      font-size: 1.8em; }
     .boxes .card .line-break {
       border-bottom: 2px solid #8A3985;
       width: 100px;
       margin: 0 auto;
       padding-top: 15px; }
     .boxes .card .card-text {
-      color: #4A0E50;
+      color: #543415;
       font-weight: bold;
+      font-size: 1.3em;
       margin-top: 10px;
       padding-bottom: 10px; }
 
@@ -181,7 +181,7 @@ body {
   height: 100%;
   width: 100%;
   background: #F8F8FF;
-  padding-top: 200px; }
+  padding: 200px 0 200px 0; }
   #info .left-bite {
     background: #8A3985;
     color: #F8F8FF;
@@ -205,39 +205,52 @@ body {
       bottom: 0;
       transform: skewY(-1.5deg);
       transform-origin: 100%; }
-  #info .blur {
-    display: flex;
-    text-align: center;
-    width: 100%; }
-    #info .blur h1 {
-      font-size: 34px;
-      padding: 30px 0px 0px 30px; }
-    #info .blur .btn-purchase {
-      position: relative; }
-      #info .blur .btn-purchase .btn-main {
-        background: #8A3985;
-        color: #fff;
-        font-size: 22px;
-        border-radius: 5px;
-        height: 50px;
-        width: 200px;
-        cursor: pointer;
-        outline: none; }
-        #info .blur .btn-purchase .btn-main .btn-main:focus {
-          outline: none;
-          border: none; }
-  #info img {
-    border-radius: 50%;
-    position: relative;
-    right: 500px;
-    height: 300px;
-    -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
-    -moz-box-shadow: 0 0px 20px 1px #4A0E50;
-    box-shadow: 0 0px 20px 1px #4A0E50; }
+    #info .left-bite .blur {
+      display: flex;
+      flex-direction: row;
+      text-align: center; }
+      #info .left-bite .blur h1 {
+        padding-top: 40px;
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+        position: relative;
+        left: 550px; }
+      #info .left-bite .blur p {
+        padding-top: 20px;
+        position: relative;
+        left: 140px;
+        line-height: 1.8em;
+        top: 100px; }
+      #info .left-bite .blur img {
+        border-radius: 50%;
+        position: relative;
+        right: 800px;
+        height: 300px;
+        -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+        -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+        box-shadow: 0 0px 20px 1px #4A0E50; }
+      #info .left-bite .blur .btn-purchase {
+        position: relative;
+        top: 135px;
+        right: 60px; }
+        #info .left-bite .blur .btn-purchase .btn-main {
+          background: #8A3985;
+          color: #fff;
+          font-size: 22px;
+          border-radius: 5px;
+          height: 50px;
+          width: 200px;
+          cursor: pointer;
+          outline: none; }
+          #info .left-bite .blur .btn-purchase .btn-main .btn-main:focus {
+            outline: none;
+            border: none; }
   #info .right-bite {
-    background: pink;
+    background: #8A3985;
+    color: #F8F8FF;
     position: relative;
-    z-index: 0; }
+    z-index: 1; }
     #info .right-bite:before, #info .right-bite:after {
       content: '';
       background: inherit;
@@ -256,13 +269,44 @@ body {
       bottom: 0;
       transform: skewY(-1.5deg);
       transform-origin: 100%; }
-    #info .right-bite h1 {
-      font-size: 34px;
-      padding: 30px 0px 0px 30px; }
-    #info .right-bite img {
-      border-radius: 50%;
-      height: 300px;
-      margin-top: 50px;
-      -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
-      -moz-box-shadow: 0 0px 20px 1px #4A0E50;
-      box-shadow: 0 0px 20px 1px #4A0E50; }
+    #info .right-bite .blur {
+      display: flex;
+      flex-direction: row;
+      text-align: center; }
+      #info .right-bite .blur h1 {
+        padding-top: 40px;
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+        position: relative;
+        left: 550px; }
+      #info .right-bite .blur p {
+        padding-top: 20px;
+        position: relative;
+        left: 140px;
+        line-height: 1.8em;
+        top: 100px; }
+      #info .right-bite .blur img {
+        border-radius: 50%;
+        position: relative;
+        right: 800px;
+        height: 300px;
+        -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+        -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+        box-shadow: 0 0px 20px 1px #4A0E50; }
+      #info .right-bite .blur .btn-purchase {
+        position: relative;
+        top: 135px;
+        right: 60px; }
+        #info .right-bite .blur .btn-purchase .btn-main {
+          background: #8A3985;
+          color: #fff;
+          font-size: 22px;
+          border-radius: 5px;
+          height: 50px;
+          width: 200px;
+          cursor: pointer;
+          outline: none; }
+          #info .right-bite .blur .btn-purchase .btn-main .btn-main:focus {
+            outline: none;
+            border: none; }

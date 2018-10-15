@@ -19,7 +19,7 @@ body {
 }
 
 #showcase {
-    height: 450px;
+    height: 400px;
     background: $logoPurple;
     box-shadow: 0px 2px 0px  $darkPurple;
     #help-bites {
@@ -45,7 +45,7 @@ body {
         position: relative;
         bottom: 60px;
         right: 50px;
-        height: 65%;
+        height: 80%;
         @include box-shadow;
     }
 }
@@ -67,7 +67,7 @@ body {
 }
 .title {
     height: 100%;
-    padding: 80px;
+    // padding: 80px;
     background: $ghostWhite;
     h1 {
         color: $darkPurple;
@@ -83,8 +83,8 @@ body {
     text-align: center;
     background: $ghostWhite;
     .card {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         background: #fff;
         padding: 0 10px 0 10px;
         overflow: hidden;
@@ -92,8 +92,8 @@ body {
         margin: 40px;
         @include box-shadow;
         .circ-decor {
-            height: 110px;
-            width: 110px;
+            height: 120px;
+            width: 120px;
             background-color: $logoPurple;
             border-radius: 50%;
             position: relative;
@@ -103,7 +103,7 @@ body {
         }
         h3 {
             color: $darkPurple;
-            font-size: 1.5em;
+            font-size: 1.8em;
         }
         .line-break {
             border-bottom: 2px solid $logoPurple;
@@ -112,9 +112,9 @@ body {
             padding-top: 15px;
         }
         .card-text {
-            color: $darkPurple;
+            color: $navBrown;
             font-weight: bold;
-
+            font-size: 1.3em;
             margin-top: 10px;
             padding-bottom: 10px;
         }
@@ -125,11 +125,12 @@ body {
     height: 100%;
     width: 100%;
     background: $ghostWhite;
-    padding-top: 200px;
+    padding: 200px 0 200px 0;
+
     .left-bite {
         background: $logoPurple;
         color: $ghostWhite;
-        position: relative;
+        position: relative;       
         z-index: 1;     
         &:before,
         &:after {
@@ -154,50 +155,62 @@ body {
             transform: skewY(-1.5deg);
             transform-origin: 100%;
         }
-    }
-    .blur {
-        display: flex;
-        text-align: center;
-         width: 100%;
-        h1 {
-        font-size: 34px;
-        padding: 30px 0px 0px 30px;      
-    }
-    .btn-purchase {
-        position: relative;
-        // margin: 0 auto;
-        // padding: 30px;
-        // text-align: center;
-        .btn-main {
-            background: $logoPurple;
-            color: #fff;
-            font-size: 22px;
-            border-radius: 5px;
-            height: 50px;
-            width: 200px;
-            cursor: pointer;
-            outline: none;
-            .btn-main:focus {
+        .blur {
+            display: flex;
+            flex-direction: row;
+            // justify-content: ce;
+            text-align: center;
+            h1 {
+                padding-top: 40px;
+                text-align: center;
+                width: 100%;
+                font-size: 36px;
+                position: relative;
+                left: 550px;
+                // padding: 30px 0px 0px 30px;
+            }
+        p {
+            padding-top: 20px;
+            position: relative;
+            left: 140px;
+            line-height: 1.8em;
+            top: 100px;
+        } 
+        img {
+            border-radius: 50%;
+            position: relative;
+            right: 800px;
+            height: 300px;
+            // margin-top: 30px;
+            @include box-shadow;
+         }
+        .btn-purchase {
+            position: relative;
+            top: 135px;
+            right: 60px;
+            .btn-main {
+                background: $logoPurple;
+                color: #fff;
+                font-size: 22px;
+                border-radius: 5px;
+                height: 50px;
+                width: 200px;
+                cursor: pointer;
                 outline: none;
-                border: none;
+                .btn-main:focus {
+                    outline: none;
+                    border: none;
+                }
             }
         }
     }
-    }
-    img {
-    border-radius: 50%;
-    position: relative;
-    right: 500px;
-    height: 300px;
-    // margin-top: 30px;
-    @include box-shadow;
-    }
+ }
     
-.right-bite {
-    background: pink;
-    position: relative;
-    z-index: 0;
-    // overflow: hidden;
+ .right-bite {
+    background: $logoPurple;
+    color: $ghostWhite;
+    position: relative;       
+    z-index: 1;     
     &:before,
     &:after {
         content: '';
@@ -206,7 +219,7 @@ body {
         height: 50%;
         left: 0;
         position: absolute;
-        right:0;
+        right: 0;
         z-index: -1;
         -webkit-backface-visibility: hidden;
     }
@@ -221,19 +234,55 @@ body {
         transform: skewY(-1.5deg);
         transform-origin: 100%;
     }
-    
-    h1 {
-        font-size: 34px;
-        padding: 30px 0px 0px 30px;
-
+    .blur {
+        display: flex;
+        flex-direction: row;
+        // justify-content: ce;
+        text-align: center;
+        h1 {
+            padding-top: 40px;
+            text-align: center;
+            width: 100%;
+            font-size: 36px;
+            position: relative;
+            left: 550px;
+            // padding: 30px 0px 0px 30px;
+        }
+        p {
+            padding-top: 20px;
+            position: relative;
+            left: 140px;
+            line-height: 1.8em;
+            top: 100px;
+        } 
+        img {
+            border-radius: 50%;
+            position: relative;
+            right: 800px;
+            height: 300px;
+            // margin-top: 30px;
+            @include box-shadow;
+        }
+        .btn-purchase {
+            position: relative;
+            top: 135px;
+            right: 60px;
+            .btn-main {
+                background: $logoPurple;
+                color: #fff;
+                font-size: 22px;
+                border-radius: 5px;
+                height: 50px;
+                width: 200px;
+                cursor: pointer;
+                outline: none;
+                .btn-main:focus {
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
     }
-    img {
-        border-radius: 50%;
-        height: 300px;
-        margin-top: 50px;
-        @include box-shadow;
-        // @include untransform;
-    }
-}
+ }
 
 }
