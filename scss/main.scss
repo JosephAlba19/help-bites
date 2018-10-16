@@ -57,17 +57,10 @@ body {
         height: 40px;
         background: $darkPurple;
         box-shadow: 0px 2px 0px  $darkPurple;
-    }
-    .hero-2 {
-        background: $navBrown;
-        height: 40px;
-        opacity: 0.8;
-    }
-    
+    }  
 }
 .title {
     height: 100%;
-    // padding: 80px;
     background: $ghostWhite;
     h1 {
         color: $darkPurple;
@@ -89,7 +82,7 @@ body {
         padding: 0 10px 0 10px;
         overflow: hidden;
         display: inline-block;
-        margin: 40px;
+        margin: 30px;
         @include box-shadow;
         .circ-decor {
             height: 120px;
@@ -125,7 +118,7 @@ body {
     height: 100%;
     width: 100%;
     background: $ghostWhite;
-    padding: 200px 0 200px 0;
+    padding: 150px 0 200px 0;
 
     .left-bite {
         background: $logoPurple;
@@ -188,10 +181,12 @@ body {
             position: relative;
             top: 135px;
             right: 60px;
+            outline: none;
             .btn-main {
-                background: $logoPurple;
-                color: #fff;
+                background: $ghostWhite;
+                color: $logoPurple;
                 font-size: 22px;
+                font-weight: 700;
                 border-radius: 5px;
                 height: 50px;
                 width: 200px;
@@ -245,15 +240,16 @@ body {
             width: 100%;
             font-size: 36px;
             position: relative;
-            left: 550px;
+            left: 525px;
             // padding: 30px 0px 0px 30px;
         }
         p {
             padding-top: 20px;
             position: relative;
-            left: 140px;
+            left: 120px;
             line-height: 1.8em;
             top: 100px;
+            margin: 0 auto;
         } 
         img {
             border-radius: 50%;
@@ -267,9 +263,10 @@ body {
             top: 135px;
             right: 1080px;
             .btn-main {
-                background: $logoBurgundy;
-                color: #fff;
+                background: $ghostWhite;
+                color: $logoBurgundy;
                 font-size: 22px;
+                font-weight: 700;
                 border-radius: 5px;
                 height: 50px;
                 width: 200px;

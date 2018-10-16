@@ -22,8 +22,8 @@ header {
                 a {
                     text-decoration: none;
                     color: $ghostWhite;
-                    &:hover {
-                        color: $navBrown;
+                    &:hover {                  
+                        font-weight: 700;
                     }
                 }
             }
