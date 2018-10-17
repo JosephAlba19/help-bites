@@ -132,7 +132,7 @@ body {
     font-size: 36px;
     line-height: 1.5;
     text-align: center;
-    padding-top: 80px; }
+    padding-top: 100px; }
 
 .boxes {
   padding-top: 80px;
@@ -176,7 +176,7 @@ body {
 #info {
   height: 100%;
   width: 100%;
-  background: #F8F8FF;
+  background: #ccc;
   padding: 150px 0 200px 0; }
   #info .left-bite {
     background: #8A3985;
@@ -282,7 +282,7 @@ body {
       #info .right-bite .blur p {
         padding-top: 20px;
         position: relative;
-        left: 120px;
+        left: 100px;
         line-height: 1.8em;
         top: 100px;
         margin: 0 auto; }
@@ -311,3 +311,7 @@ body {
           #info .right-bite .blur .btn-purchase .btn-main .btn-main:focus {
             outline: none;
             border: none; }
+
+#ingredients {
+  height: 200px;
+  background: blue; }

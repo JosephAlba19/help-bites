@@ -67,7 +67,7 @@ body {
         font-size: 36px;
         line-height: 1.5;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 100px;
         
     }
 }
@@ -117,7 +117,7 @@ body {
 #info {
     height: 100%;
     width: 100%;
-    background: $ghostWhite;
+    background: #ccc;
     padding: 150px 0 200px 0;
 
     .left-bite {
@@ -246,7 +246,7 @@ body {
         p {
             padding-top: 20px;
             position: relative;
-            left: 120px;
+            left: 100px;
             line-height: 1.8em;
             top: 100px;
             margin: 0 auto;
@@ -280,5 +280,10 @@ body {
         }
     }
  }
+
+}
+#ingredients {
+    height: 200px;
+    background: blue;
 
 }
