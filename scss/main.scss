@@ -117,7 +117,7 @@ body {
 #info {
     height: 100%;
     width: 100%;
-    background: #ccc;
+    background: $ghostWhite;
     padding: 150px 0 150px 0;
 
     .left-bite {
@@ -284,6 +284,7 @@ body {
 }
 #ingredients {
     height: 100%;
+    background: $ghostWhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,6 +300,7 @@ body {
     }
     #container {
         display: flex;
+        height: 400px;
         .left-half {
             background-color: $logoPurple;
             flex: 1;

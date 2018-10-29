@@ -176,7 +176,7 @@ body {
 #info {
   height: 100%;
   width: 100%;
-  background: #ccc;
+  background: #F8F8FF;
   padding: 150px 0 150px 0; }
   #info .left-bite {
     background: #8A3985;
@@ -314,6 +314,7 @@ body {
 
 #ingredients {
   height: 100%;
+  background: #F8F8FF;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -326,7 +327,8 @@ body {
     text-align: center;
     padding: 30px 0 30px 0; }
   #ingredients #container {
-    display: flex; }
+    display: flex;
+    height: 400px; }
     #ingredients #container .left-half {
       background-color: #8A3985;
       flex: 1;
