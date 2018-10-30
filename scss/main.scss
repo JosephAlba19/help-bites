@@ -68,11 +68,14 @@ body {
         line-height: 1.5;
         text-align: center;
         padding-top: 100px;
-        
+        #love {
+            color: $logoBurgundy;
+            font-size: 55px;
+        }
     }
 }
 .boxes {
-    padding: 80px 0 80px 0;
+    padding: 80px 0 20px 0;
     text-align: center;
     background: $ghostWhite;
     .card {
@@ -102,7 +105,7 @@ body {
             border-bottom: 2px solid $logoPurple;
             width: 100px;
             margin: 0 auto;
-            padding-top: 15px;
+            padding-top: 25px;
         }
         .card-text {
             color: $navBrown;
@@ -122,7 +125,7 @@ body {
 
     .left-bite {
         background: $logoPurple;
-        color: $ghostWhite;
+        color: #fff;
         position: relative;       
         z-index: 1;     
         &:before,
@@ -203,7 +206,7 @@ body {
     
  .right-bite {
     background: $logoBurgundy;
-    color: $ghostWhite;
+    color: #fff;
     position: relative;
     margin-top: 80px;       
     z-index: 0;     
@@ -284,34 +287,36 @@ body {
 }
 #ingredients {
     height: 100%;
-    background: $ghostWhite;
+    background: $darkPurple;
     display: flex;
     flex-direction: column;
     justify-content: center;
     h1 {
         text-align: center;
-        color: $darkPurple;
-        padding: 30px 0 30px 0;
+        color: #fff;
+        padding: 20px 0 20px 0;
     }
     h2 {
-        color: $ghostWhite;
+        color: #fff;
         text-align: center;
         padding: 30px 0 30px 0;
     }
     #container {
         display: flex;
-        height: 400px;
+        height: 100%;
+        background: $logoPurple;
+        color: #fff;
+        text-align: center;
         .left-half {
-            background-color: $logoPurple;
             flex: 1;
             padding: 1rem;
-
           }  
         .right-half {
-            background-color: $logoBurgundy;
             flex: 1;
-            padding: 1rem;
+            padding: 1rem;          
+        }
+        ul {
+            list-style-type: none;
         }
     }
-    
 }

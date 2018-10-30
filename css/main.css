@@ -50,7 +50,7 @@ footer {
 
 header {
   background: #8A3985;
-  height: 105px; }
+  height: 125px; }
   header nav {
     width: auto;
     height: 100%; }
@@ -133,9 +133,12 @@ body {
     line-height: 1.5;
     text-align: center;
     padding-top: 100px; }
+    .title h1 #love {
+      color: #800020;
+      font-size: 55px; }
 
 .boxes {
-  padding: 80px 0 80px 0;
+  padding: 80px 0 20px 0;
   text-align: center;
   background: #F8F8FF; }
   .boxes .card {
@@ -165,7 +168,7 @@ body {
       border-bottom: 2px solid #8A3985;
       width: 100px;
       margin: 0 auto;
-      padding-top: 15px; }
+      padding-top: 25px; }
     .boxes .card .card-text {
       color: #543415;
       font-weight: bold;
@@ -180,7 +183,7 @@ body {
   padding: 150px 0 150px 0; }
   #info .left-bite {
     background: #8A3985;
-    color: #F8F8FF;
+    color: #fff;
     position: relative;
     z-index: 1; }
     #info .left-bite:before, #info .left-bite:after {
@@ -246,7 +249,7 @@ body {
             border: none; }
   #info .right-bite {
     background: #800020;
-    color: #F8F8FF;
+    color: #fff;
     position: relative;
     margin-top: 80px;
     z-index: 0; }
@@ -314,26 +317,29 @@ body {
 
 #ingredients {
   height: 100%;
-  background: #F8F8FF;
+  background: #4A0E50;
   display: flex;
   flex-direction: column;
   justify-content: center; }
   #ingredients h1 {
     text-align: center;
-    color: #4A0E50;
-    padding: 30px 0 30px 0; }
+    color: #fff;
+    padding: 20px 0 20px 0; }
   #ingredients h2 {
-    color: #F8F8FF;
+    color: #fff;
     text-align: center;
     padding: 30px 0 30px 0; }
   #ingredients #container {
     display: flex;
-    height: 400px; }
+    height: 100%;
+    background: #8A3985;
+    color: #fff;
+    text-align: center; }
     #ingredients #container .left-half {
-      background-color: #8A3985;
       flex: 1;
       padding: 1rem; }
     #ingredients #container .right-half {
-      background-color: #800020;
       flex: 1;
       padding: 1rem; }
+    #ingredients #container ul {
+      list-style-type: none; }
