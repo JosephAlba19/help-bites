@@ -185,7 +185,8 @@ body {
     background: #8A3985;
     color: #fff;
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    width: 100%; }
     #info .left-bite:before, #info .left-bite:after {
       content: '';
       background: inherit;
@@ -206,7 +207,6 @@ body {
       transform-origin: 100%; }
     #info .left-bite .blur {
       display: flex;
-      flex-direction: row;
       text-align: center; }
       #info .left-bite .blur h1 {
         padding-top: 40px;
@@ -214,11 +214,13 @@ body {
         width: 100%;
         font-size: 36px;
         position: relative;
-        left: 550px; }
+        left: 500px; }
       #info .left-bite .blur p {
+        width: 100%;
         padding-top: 20px;
         position: relative;
-        left: 140px;
+        left: 80px;
+        margin: 0 auto;
         line-height: 1.8em;
         top: 100px; }
       #info .left-bite .blur img {
@@ -252,7 +254,8 @@ body {
     color: #fff;
     position: relative;
     margin-top: 80px;
-    z-index: 0; }
+    z-index: 0;
+    width: 100%; }
     #info .right-bite:before, #info .right-bite:after {
       content: '';
       background: inherit;
@@ -273,7 +276,6 @@ body {
       transform-origin: 0; }
     #info .right-bite .blur {
       display: flex;
-      flex-direction: row;
       text-align: center; }
       #info .right-bite .blur h1 {
         padding-top: 40px;
@@ -281,11 +283,12 @@ body {
         width: 100%;
         font-size: 36px;
         position: relative;
-        left: 525px; }
+        left: 500px; }
       #info .right-bite .blur p {
+        width: 100%;
         padding-top: 20px;
         position: relative;
-        left: 100px;
+        left: 80px;
         line-height: 1.8em;
         top: 100px;
         margin: 0 auto; }
@@ -315,31 +318,26 @@ body {
             outline: none;
             border: none; }
 
-#ingredients {
+#about {
   height: 100%;
-  background: #4A0E50;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  #ingredients h1 {
+  width: 100%;
+  background: #4A0E50; }
+  #about h1 {
     text-align: center;
     color: #fff;
     padding: 20px 0 20px 0; }
-  #ingredients h2 {
-    color: #fff;
-    text-align: center;
-    padding: 30px 0 30px 0; }
-  #ingredients #container {
-    display: flex;
+  #about #container {
     height: 100%;
+    width: 100%;
     background: #8A3985;
     color: #fff;
-    text-align: center; }
-    #ingredients #container .left-half {
-      flex: 1;
-      padding: 1rem; }
-    #ingredients #container .right-half {
-      flex: 1;
-      padding: 1rem; }
-    #ingredients #container ul {
-      list-style-type: none; }
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 22px; }
+    #about #container img {
+      float: left;
+      border: solid 2px #F8F8FF;
+      border-radius: 1.5%; }
+    #about #container p {
+      padding-left: 20px; }

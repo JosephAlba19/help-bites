@@ -122,12 +122,12 @@ body {
     width: 100%;
     background: $ghostWhite;
     padding: 150px 0 150px 0;
-
     .left-bite {
         background: $logoPurple;
         color: #fff;
         position: relative;       
         z-index: 1;     
+        width: 100%;
         &:before,
         &:after {
             content: '';
@@ -153,8 +153,6 @@ body {
         }
         .blur {
             display: flex;
-            flex-direction: row;
-            // justify-content: ce;
             text-align: center;
             h1 {
                 padding-top: 40px;
@@ -162,13 +160,14 @@ body {
                 width: 100%;
                 font-size: 36px;
                 position: relative;
-                left: 550px;
-                // padding: 30px 0px 0px 30px;
+                left: 500px;
             }
         p {
+            width: 100%;
             padding-top: 20px;
             position: relative;
-            left: 140px;
+            left: 80px;
+            margin: 0 auto;
             line-height: 1.8em;
             top: 100px;
         } 
@@ -209,7 +208,8 @@ body {
     color: #fff;
     position: relative;
     margin-top: 80px;       
-    z-index: 0;     
+    z-index: 0;
+    width: 100%;
     &:before,
     &:after {
         content: '';
@@ -235,7 +235,6 @@ body {
     }
     .blur {
         display: flex;
-        flex-direction: row;
         text-align: center;
         h1 {
             padding-top: 40px;
@@ -243,13 +242,14 @@ body {
             width: 100%;
             font-size: 36px;
             position: relative;
-            left: 525px;
+            left: 500px;
             // padding: 30px 0px 0px 30px;
         }
         p {
+            width: 100%;
             padding-top: 20px;
             position: relative;
-            left: 100px;
+            left: 80px;
             line-height: 1.8em;
             top: 100px;
             margin: 0 auto;
@@ -285,38 +285,31 @@ body {
  }
 
 }
-#ingredients {
+#about {
     height: 100%;
+    width: 100%;
     background: $darkPurple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     h1 {
         text-align: center;
         color: #fff;
         padding: 20px 0 20px 0;
     }
-    h2 {
-        color: #fff;
-        text-align: center;
-        padding: 30px 0 30px 0;
-    }
     #container {
-        display: flex;
         height: 100%;
+        width: 100%;
         background: $logoPurple;
         color: #fff;
-        text-align: center;
-        .left-half {
-            flex: 1;
-            padding: 1rem;
-          }  
-        .right-half {
-            flex: 1;
-            padding: 1rem;          
+        text-align: justify;
+        padding: 20px;
+        line-height: 1.5em;
+        font-size: 22px; 
+        img{
+                float: left;
+                border: solid 2px $ghostWhite;
+                border-radius: 1.5%;
         }
-        ul {
-            list-style-type: none;
+        p {    
+                padding-left: 20px;
         }
     }
 }
