@@ -317,7 +317,7 @@ body {
             outline: none;
             border: none; }
   #info .hybrid-bite {
-    background: #8A3985;
+    background: #543415;
     color: #fff;
     position: relative;
     z-index: 1;
@@ -415,22 +415,37 @@ body {
     color: #fff;
     padding: 20px 0 20px 0; }
   #about #container {
-    display: flex;
     height: 100%;
     width: 100%;
     background: #F8F8FF;
     color: #4A0E50;
-    text-align: center;
-    padding: 40px 25px 40px 25px;
-    line-height: 1.5em;
-    font-size: 22px;
+    padding: 40px 20px 40px 20px;
     overflow: hidden; }
     #about #container img {
-      margin-left: 30px;
       height: 400px;
       float: left;
       border: solid 2px #e3e3e3;
       border-radius: 1.5%; }
-    #about #container p {
-      width: 50%;
-      margin: 0 auto; }
+    #about #container .abt-content {
+      padding-left: 15px;
+      text-align: justify;
+      font-size: 22px;
+      line-height: 1.5em;
+      overflow: hidden; }
+      #about #container .abt-content p {
+        padding-bottom: 10px; }
+    #about #container .founder-info {
+      float: left;
+      text-align: center;
+      width: 31%;
+      border-left: solid #8A3985 3px;
+      border-right: solid #8A3985 3px;
+      padding: 20px; }
+      #about #container .founder-info a {
+        display: block;
+        text-decoration: none; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; }

@@ -284,7 +284,7 @@ body {
     }
  }
  .hybrid-bite {
-    background: $logoPurple;
+    background: $navBrown;
     color: #fff;
     position: relative;       
     z-index: 1;     
@@ -399,27 +399,45 @@ body {
         padding: 20px 0 20px 0;
     }
     #container {
-        display: flex;
         height: 100%;
         width: 100%;
         background: $ghostWhite;
         color: $darkPurple;
-        text-align: center;
-        padding: 40px 25px 40px 25px;
-        line-height: 1.5em;
-        font-size: 22px; 
+        padding: 40px 20px 40px 20px;
         overflow: hidden;
         img{
-            // padding-left: 30px;
-            margin-left: 30px;
             height: 400px;
             float: left;
             border: solid 2px #e3e3e3;
             border-radius: 1.5%;
         }
-        p {   
-            width: 50%; 
-            margin: 0 auto;
+        .abt-content {
+            padding-left: 15px;
+            text-align: justify;
+            font-size: 22px; 
+            line-height: 1.5em;
+            overflow: hidden;
+            p {
+                padding-bottom: 10px;
+            }
+        }
+        .founder-info {
+            float: left;
+            text-align: center;
+            width: 31%;
+            border-left: solid $logoPurple 3px;
+            border-right: solid $logoPurple 3px;
+            padding: 20px;        
+            a {
+                display: block;
+                text-decoration: none;
+            }
         }
     }
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
