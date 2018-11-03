@@ -288,8 +288,7 @@ body {
         width: 100%;
         padding-top: 20px;
         position: relative;
-        left: 80px;
-        line-height: 1.8em;
+        left: 75px;
         top: 100px;
         margin: 0 auto; }
       #info .right-bite .blur img {
@@ -318,6 +317,26 @@ body {
             outline: none;
             border: none; }
 
+#order-cart {
+  background: #F8F8FF;
+  color: #8A3985;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 50px 0px 50px 0px; }
+  #order-cart h1 {
+    padding: 20px; }
+  #order-cart .shopbox {
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+    padding: 40px; }
+    #order-cart .shopbox .shopcart {
+      height: 400px;
+      width: 75%;
+      margin: 0 auto;
+      background: red; }
+
 #about {
   height: 100%;
   width: 100%;
@@ -327,17 +346,20 @@ body {
     color: #fff;
     padding: 20px 0 20px 0; }
   #about #container {
+    display: flex;
     height: 100%;
     width: 100%;
-    background: #8A3985;
-    color: #fff;
+    background: #F8F8FF;
+    color: #4A0E50;
     text-align: justify;
-    padding: 20px;
+    padding: 40px 25px 40px 25px;
     line-height: 1.5em;
-    font-size: 22px; }
+    font-size: 22px;
+    overflow: hidden; }
     #about #container img {
+      height: 350px;
       float: left;
-      border: solid 2px #F8F8FF;
+      border: solid 2px #e3e3e3;
       border-radius: 1.5%; }
     #about #container p {
       padding-left: 20px; }
