@@ -122,7 +122,7 @@ body {
     width: 100%;
     background: $ghostWhite;
     padding: 150px 0 150px 0;
-    .left-bite {
+    .original-bite {
         background: $logoPurple;
         color: #fff;
         position: relative;       
@@ -203,7 +203,7 @@ body {
     }
  }
     
- .right-bite {
+ .athletic-bite {
     background: $logoBurgundy;
     color: #fff;
     position: relative;
@@ -283,6 +283,87 @@ body {
         }
     }
  }
+ .hybrid-bite {
+    background: $logoPurple;
+    color: #fff;
+    position: relative;       
+    z-index: 1;     
+    width: 100%;
+    margin-top: 80px; 
+    &:before,
+    &:after {
+        content: '';
+        background: inherit;
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        -webkit-backface-visibility: hidden;
+    }
+    &:before {
+        top: 0;
+        transform: skewY(1.5deg);
+        transform-origin: 100% 0;
+    }
+    
+    &:after {
+        bottom: 0;
+        transform: skewY(-1.5deg);
+        transform-origin: 100%;
+    }
+    .blur {
+        display: flex;
+        text-align: center;
+        h1 {
+            padding-top: 40px;
+            text-align: center;
+            width: 100%;
+            font-size: 36px;
+            position: relative;
+            left: 500px;
+        }
+    p {
+        width: 100%;
+        padding-top: 20px;
+        position: relative;
+        left: 80px;
+        margin: 0 auto;
+        line-height: 1.8em;
+        top: 100px;
+    } 
+    img {
+        border-radius: 50%;
+        position: relative;
+        right: 800px;
+        height: 300px;
+        // margin-top: 30px;
+        @include box-shadow;
+     }
+    .btn-purchase {
+        position: relative;
+        top: 135px;
+        right: 60px;
+        outline: none;
+        .btn-main {
+            background: $ghostWhite;
+            color: $logoPurple;
+            font-size: 22px;
+            font-weight: 700;
+            border-radius: 5px;
+            height: 50px;
+            width: 200px;
+            cursor: pointer;
+            outline: none;
+            .btn-main:focus {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+}
 }
 #order-cart {
     background: $ghostWhite;
@@ -304,7 +385,7 @@ body {
             width: 75%;
             margin: 0 auto;
             
-            background: red;
+            background: #eee;
         }
     }
 }
@@ -323,19 +404,22 @@ body {
         width: 100%;
         background: $ghostWhite;
         color: $darkPurple;
-        text-align: justify;
+        text-align: center;
         padding: 40px 25px 40px 25px;
         line-height: 1.5em;
         font-size: 22px; 
         overflow: hidden;
         img{
-            height: 350px;
+            // padding-left: 30px;
+            margin-left: 30px;
+            height: 400px;
             float: left;
             border: solid 2px #e3e3e3;
             border-radius: 1.5%;
         }
-        p {    
-            padding-left: 20px;
+        p {   
+            width: 50%; 
+            margin: 0 auto;
         }
     }
 }

@@ -181,13 +181,13 @@ body {
   width: 100%;
   background: #F8F8FF;
   padding: 150px 0 150px 0; }
-  #info .left-bite {
+  #info .original-bite {
     background: #8A3985;
     color: #fff;
     position: relative;
     z-index: 1;
     width: 100%; }
-    #info .left-bite:before, #info .left-bite:after {
+    #info .original-bite:before, #info .original-bite:after {
       content: '';
       background: inherit;
       display: block;
@@ -197,25 +197,25 @@ body {
       right: 0;
       z-index: -1;
       -webkit-backface-visibility: hidden; }
-    #info .left-bite:before {
+    #info .original-bite:before {
       top: 0;
       transform: skewY(1.5deg);
       transform-origin: 100% 0; }
-    #info .left-bite:after {
+    #info .original-bite:after {
       bottom: 0;
       transform: skewY(-1.5deg);
       transform-origin: 100%; }
-    #info .left-bite .blur {
+    #info .original-bite .blur {
       display: flex;
       text-align: center; }
-      #info .left-bite .blur h1 {
+      #info .original-bite .blur h1 {
         padding-top: 40px;
         text-align: center;
         width: 100%;
         font-size: 36px;
         position: relative;
         left: 500px; }
-      #info .left-bite .blur p {
+      #info .original-bite .blur p {
         width: 100%;
         padding-top: 20px;
         position: relative;
@@ -223,7 +223,7 @@ body {
         margin: 0 auto;
         line-height: 1.8em;
         top: 100px; }
-      #info .left-bite .blur img {
+      #info .original-bite .blur img {
         border-radius: 50%;
         position: relative;
         right: 800px;
@@ -231,12 +231,12 @@ body {
         -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
         -moz-box-shadow: 0 0px 20px 1px #4A0E50;
         box-shadow: 0 0px 20px 1px #4A0E50; }
-      #info .left-bite .blur .btn-purchase {
+      #info .original-bite .blur .btn-purchase {
         position: relative;
         top: 135px;
         right: 60px;
         outline: none; }
-        #info .left-bite .blur .btn-purchase .btn-main {
+        #info .original-bite .blur .btn-purchase .btn-main {
           background: #F8F8FF;
           color: #8A3985;
           font-size: 22px;
@@ -246,17 +246,17 @@ body {
           width: 200px;
           cursor: pointer;
           outline: none; }
-          #info .left-bite .blur .btn-purchase .btn-main .btn-main:focus {
+          #info .original-bite .blur .btn-purchase .btn-main .btn-main:focus {
             outline: none;
             border: none; }
-  #info .right-bite {
+  #info .athletic-bite {
     background: #800020;
     color: #fff;
     position: relative;
     margin-top: 80px;
     z-index: 0;
     width: 100%; }
-    #info .right-bite:before, #info .right-bite:after {
+    #info .athletic-bite:before, #info .athletic-bite:after {
       content: '';
       background: inherit;
       display: block;
@@ -266,32 +266,32 @@ body {
       right: 0;
       z-index: -1;
       -webkit-backface-visibility: hidden; }
-    #info .right-bite:before {
+    #info .athletic-bite:before {
       top: 0;
       transform: skewY(-1.5deg);
       transform-origin: 0 100%; }
-    #info .right-bite:after {
+    #info .athletic-bite:after {
       bottom: 0;
       transform: skewY(1.5deg);
       transform-origin: 0; }
-    #info .right-bite .blur {
+    #info .athletic-bite .blur {
       display: flex;
       text-align: center; }
-      #info .right-bite .blur h1 {
+      #info .athletic-bite .blur h1 {
         padding-top: 40px;
         text-align: center;
         width: 100%;
         font-size: 36px;
         position: relative;
         left: 500px; }
-      #info .right-bite .blur p {
+      #info .athletic-bite .blur p {
         width: 100%;
         padding-top: 20px;
         position: relative;
         left: 75px;
         top: 100px;
         margin: 0 auto; }
-      #info .right-bite .blur img {
+      #info .athletic-bite .blur img {
         border-radius: 50%;
         position: relative;
         left: 165px;
@@ -299,11 +299,11 @@ body {
         -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
         -moz-box-shadow: 0 0px 20px 1px #4A0E50;
         box-shadow: 0 0px 20px 1px #4A0E50; }
-      #info .right-bite .blur .btn-purchase {
+      #info .athletic-bite .blur .btn-purchase {
         position: relative;
         top: 135px;
         right: 1080px; }
-        #info .right-bite .blur .btn-purchase .btn-main {
+        #info .athletic-bite .blur .btn-purchase .btn-main {
           background: #F8F8FF;
           color: #800020;
           font-size: 22px;
@@ -313,7 +313,76 @@ body {
           width: 200px;
           cursor: pointer;
           outline: none; }
-          #info .right-bite .blur .btn-purchase .btn-main .btn-main:focus {
+          #info .athletic-bite .blur .btn-purchase .btn-main .btn-main:focus {
+            outline: none;
+            border: none; }
+  #info .hybrid-bite {
+    background: #8A3985;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-top: 80px; }
+    #info .hybrid-bite:before, #info .hybrid-bite:after {
+      content: '';
+      background: inherit;
+      display: block;
+      height: 50%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      -webkit-backface-visibility: hidden; }
+    #info .hybrid-bite:before {
+      top: 0;
+      transform: skewY(1.5deg);
+      transform-origin: 100% 0; }
+    #info .hybrid-bite:after {
+      bottom: 0;
+      transform: skewY(-1.5deg);
+      transform-origin: 100%; }
+    #info .hybrid-bite .blur {
+      display: flex;
+      text-align: center; }
+      #info .hybrid-bite .blur h1 {
+        padding-top: 40px;
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+        position: relative;
+        left: 500px; }
+      #info .hybrid-bite .blur p {
+        width: 100%;
+        padding-top: 20px;
+        position: relative;
+        left: 80px;
+        margin: 0 auto;
+        line-height: 1.8em;
+        top: 100px; }
+      #info .hybrid-bite .blur img {
+        border-radius: 50%;
+        position: relative;
+        right: 800px;
+        height: 300px;
+        -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+        -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+        box-shadow: 0 0px 20px 1px #4A0E50; }
+      #info .hybrid-bite .blur .btn-purchase {
+        position: relative;
+        top: 135px;
+        right: 60px;
+        outline: none; }
+        #info .hybrid-bite .blur .btn-purchase .btn-main {
+          background: #F8F8FF;
+          color: #8A3985;
+          font-size: 22px;
+          font-weight: 700;
+          border-radius: 5px;
+          height: 50px;
+          width: 200px;
+          cursor: pointer;
+          outline: none; }
+          #info .hybrid-bite .blur .btn-purchase .btn-main .btn-main:focus {
             outline: none;
             border: none; }
 
@@ -335,7 +404,7 @@ body {
       height: 400px;
       width: 75%;
       margin: 0 auto;
-      background: red; }
+      background: #eee; }
 
 #about {
   height: 100%;
@@ -351,15 +420,17 @@ body {
     width: 100%;
     background: #F8F8FF;
     color: #4A0E50;
-    text-align: justify;
+    text-align: center;
     padding: 40px 25px 40px 25px;
     line-height: 1.5em;
     font-size: 22px;
     overflow: hidden; }
     #about #container img {
-      height: 350px;
+      margin-left: 30px;
+      height: 400px;
       float: left;
       border: solid 2px #e3e3e3;
       border-radius: 1.5%; }
     #about #container p {
-      padding-left: 20px; }
+      width: 50%;
+      margin: 0 auto; }
