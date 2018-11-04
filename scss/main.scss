@@ -389,6 +389,9 @@ body {
         }
     }
 }
+
+// ABOUT PAGE //
+
 #about {
     height: 100%;
     width: 100%;
@@ -412,13 +415,13 @@ body {
             border-radius: 1.5%;
         }
         .abt-content {
-            padding-left: 15px;
+            padding: 0px 25px 0px 25px;
             text-align: justify;
             font-size: 22px; 
             line-height: 1.5em;
             overflow: hidden;
             p {
-                padding-bottom: 10px;
+                padding-bottom: 20px;
             }
         }
         .founder-info {
@@ -436,8 +439,51 @@ body {
     }
     
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+
+// SHOP PAGE //
+#merch {
+    height: 100%;
+    width: 100%;
+    background: $ghostWhite;
+    h1 {
+        text-align: center;
+        color: $darkPurple;
+        padding: 30px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        background: $ghostWhite;
+        padding: 50px;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        .shop-item {
+            background: $ghostWhite;
+            padding: 15px;
+            height: 400px;
+            width: auto;
+            text-align: center;
+            color: $darkPurple;
+            @include box-shadow;
+            img {
+                height: 300px;
+                width: 300px;
+                // padding: 10px;
+                margin: 0 auto;
+                border: 2px solid $logoPurple;
+                // background: blue;
+                h3 {
+                    padding: 10px;
+                }
+                p {
+                    height: 100%;
+                    text-align: center;
+                    padding: 5px;
+                }
+            }
+        }
+    }
 }
+

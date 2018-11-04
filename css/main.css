@@ -427,13 +427,13 @@ body {
       border: solid 2px #e3e3e3;
       border-radius: 1.5%; }
     #about #container .abt-content {
-      padding-left: 15px;
+      padding: 0px 25px 0px 25px;
       text-align: justify;
       font-size: 22px;
       line-height: 1.5em;
       overflow: hidden; }
       #about #container .abt-content p {
-        padding-bottom: 10px; }
+        padding-bottom: 20px; }
     #about #container .founder-info {
       float: left;
       text-align: center;
@@ -445,7 +445,41 @@ body {
         display: block;
         text-decoration: none; }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; }
+#merch {
+  height: 100%;
+  width: 100%;
+  background: #F8F8FF; }
+  #merch h1 {
+    text-align: center;
+    color: #4A0E50;
+    padding: 30px; }
+  #merch .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    background: #F8F8FF;
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto; }
+    #merch .grid .shop-item {
+      background: #F8F8FF;
+      padding: 15px;
+      height: 400px;
+      width: auto;
+      text-align: center;
+      color: #4A0E50;
+      -webkit-box-shadow: 0 0px 20px 1px #4A0E50;
+      -moz-box-shadow: 0 0px 20px 1px #4A0E50;
+      box-shadow: 0 0px 20px 1px #4A0E50; }
+      #merch .grid .shop-item img {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        border: 2px solid #8A3985; }
+        #merch .grid .shop-item img h3 {
+          padding: 10px; }
+        #merch .grid .shop-item img p {
+          height: 100%;
+          text-align: center;
+          padding: 5px; }
